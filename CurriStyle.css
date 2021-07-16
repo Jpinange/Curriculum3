@@ -9,40 +9,80 @@
 }
 
   header img:hover 
-  header img {
-    animation: bordaCamaleao 8s infinite;
-    border-radius:50%;
-    transition: .5s ease-in-out;
-    filter: drop-shadow(2px 2px 4px rgba(122, 151, 17, 0.637));
+    header img {
+      animation: bordaCamaleao 8s infinite;
+      border-radius:50%;
+      transition: .5s ease-in-out;
+      filter: drop-shadow(2px 2px 4px rgba(122, 151, 17, 0.637));
     
   }
+
   header img {
     animation: bordaCamaleao 4s infinite;
     border-radius:50%;
     transition: .5s ease-in-out;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
   }
+  
   
   header img:hover {
     transform: rotate(450deg);
+    
+   
   }
 
   header{
-    font-size:large;
+    font-size: 30px;;
     font-weight:bold;
+    background-color: aqua;
+    
+    font-weight: 800;
 
 }
-    h3 {
-      color: #1634bd;
-      font-weight:600;
-      margin: 24px auto;
-      text-align: center;
-      font-size:xx-large;
-      font-weight:bold;
-      font-style: italic;
-    
-    
-    }
+.contatoHeader {
+  background-color:brown;
+  text-align: center;
+ 
+
+  
+}
+
+div {
+  background-color: rgb(177, 223, 52);
+  align-items: center;
+  transform-box:self-position;
+  animation:none;
+
+
+}
+
+body{
+    background-color: cadetblue;
+    align-items: center;
+}
+
+
+
+
+h2 {
+  color: #142c9b;
+  font-weight:600;
+  margin: 24px auto;
+  text-align:center;
+  font-size:xx-large;
+  font-weight:bold;
+  font-style: italic;
+  
+  }  
+
+  .ResumoQualificacao{
+    background-color:rgb(221, 34, 149)
+
+  }
+ 
   #experiencias profissionais table, thead, tbody, tfoot, tr, th, td  {
     border: 2px solid #b96f0d;
   }
@@ -67,13 +107,36 @@
     margin: auto;
     padding: 16px; 
   }
+ 
+  
+  .AmpliarImagens{
+      background-color: tomato;
+      border: 2px solid black;
+      margin: 20px;
+      padding: 20px;
+      overflow: hidden;
+      
 
-  Footer{
+    }
+
+  .AmpliarImagens img {
+      max-width: 600%;
+      -moz-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+  .AmpliarImagens:hover img {
+      -moz-transform: scale(2.1);
+      -webkit-transform: scale(2.1);
+      transform: scale(3.5);
+  }
+
+  footer {
     background-color: #a51d61;
     margin: auto;
     padding: 16px; 
-
-
+    text-align:center
   }
   @media only screen and (max-width: 600px) {
     .divTab{
@@ -83,7 +146,7 @@
     table {
     width:100%;
   }
-
+  
   @keyframes bordaCamaleao {
     0% {
       border: 8px solid #1634bd;
@@ -100,4 +163,12 @@
     100% {
       border: 8px solid #1634bd;
     }
-  }
+
+
+    
+
+
+    
+
+  
+ 
